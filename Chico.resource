@@ -43,35 +43,66 @@ ${FECHAR_COMPRA}        xpath=//div[@id='cart-finish']/button[2]
 Compra da camiseta "Vira lata caramelo"
 
     Open Browser                    ${SITE}             ${NAVEGADOR}
+
     Sleep                           2
+
     Click Button                    ${CONFIRMAR}
+
     Sleep                           2
+
     Wait Until Element is Visible   ${PESQUISA}
+
     Sleep                           2
+
     Input Text                      ${PESQUISA}         ${NOME_PESQUISA_1} 
+
     Sleep                           2
+
     Click Element                   ${ABRIR_TODOS}  
+
     Sleep                           2
+
     Wait Until Element is Visible   ${RESUL_PESQ}
+
     Sleep                           2
+
     Click Element                   ${PESQUISA_1}
+
     Sleep                           2
+
     Click Element                   ${MODELAGEM}
+
     Sleep                           2
+
     Page Should Contain             ${CONTEM}
+
     Sleep                           2
+
     Click Element                   ${TAMANHO}
+
     Sleep                           2
+
+    
     Click Element                   ${COR_1}
+
     Sleep                           2
+
     Click Element                   ${COMPRAR}
+
     Sleep                           2
+
     Click Element                   ${VER_SACOLA}
+
     Sleep                           2
+
     Page Should Contain             ${FRASE}
+
     Sleep                           2
+
     Click Element                   ${FECHAR_COMPRA}
+
     Sleep                           2
+
     Close Browser
 
 
@@ -79,137 +110,258 @@ Compra da camiseta "Vira lata caramelo"
 Compra da camiseta "Amarelo é Desespero"
 
     Open Browser                    ${SITE}             ${NAVEGADOR}
+
     Sleep                           1
+
     Click Button                    ${CONFIRMAR}
+
     Sleep                           1
+
     Wait Until Element is Visible   ${PESQUISA}
+
     Sleep                           1
+
     Input Text                      ${PESQUISA}         ${NOME_PESQUISA_2} 
+    
     Sleep                           2
+
     Click Element                   ${ABRIR_TODOS}  
+
     Sleep                           2
+
     Wait Until Element is Visible   ${RESUL_PESQ}
+
     Sleep                           2
+
     Click Element                   ${PESQUISA_1}
+
     Sleep                           2
+
     Click Element                   ${MODELAGEM}
+
     Sleep                           2
+
     Page Should Contain             ${CONTEM}
+
     Sleep                           2
+
     Click Element                   ${TAMANHO}
+
     Sleep                           2
+
     Click Element                   ${COR_2}
+
     Sleep                           2
+
     Click Element                   ${COMPRAR}
+
     Sleep                           2
+
     Click Element                   ${VER_SACOLA}
+
     Sleep                           2
+
     Page Should Contain             ${FRASE}
+
     Sleep                           2
+
     Click Element                   ${FECHAR_COMPRA}
+
     Sleep                           2
+
     Close Browser
 
 Compra da camiseta "Erarr é humano"
 
     Open Browser                    ${SITE}             ${NAVEGADOR}
+
     Sleep                           1
+
     Click Button                    ${CONFIRMAR}
+
     Sleep                           1
+
     Wait Until Element is Visible   ${PESQUISA}
+
     Sleep                           1
+
     Input Text                      ${PESQUISA}         ${NOME_PESQUISA_3} 
+
     Sleep                           2
+
     Click Element                   ${ABRIR_TODOS}  
+
     Sleep                           2
+
     Wait Until Element is Visible   ${RESUL_PESQ}
+    
     Sleep                           2
+
     Click Element                   ${PESQUISA_1}
+
     Sleep                           2
+
     Click Element                   ${MODELAGEM}
+
     Sleep                           2
+
     Page Should Contain             ${CONTEM}
+
     Sleep                           2
+
     Click Element                   ${TAMANHO}
+
     Sleep                           2
+
     Click Element                   ${COR_3}
+
     Sleep                           2
+
     Click Element                   ${COMPRAR}
+
     Sleep                           2
+
     Click Element                   ${VER_SACOLA}
+
     Sleep                           2
+
     Page Should Contain             ${FRASE}
+
     Sleep                           2
+
     Click Element                   ${FECHAR_COMPRA}
+
     Sleep                           2
+
     Close Browser
 
    
 Compra da camiseta "Nem Te Vi"
 
     Open Browser                    ${SITE}             ${NAVEGADOR}
+
     Sleep                           1
+
     Click Button                    ${CONFIRMAR}
+
     Sleep                           1
+
     Wait Until Element is Visible   ${PESQUISA}
+
     Sleep                           1
+
     Input Text                      ${PESQUISA}         ${NOME_PESQUISA_4} 
+
     Sleep                           2
+
     Click Element                   ${ABRIR_TODOS}  
+
     Sleep                           2
+
     Wait Until Element is Visible   ${RESUL_PESQ}
+
     Sleep                           2
+
     Click Element                   ${PESQUISA_1}
+
     Sleep                           2
+
     Click Element                   ${MODELAGEM}
+
     Sleep                           2
+
     Page Should Contain             ${CONTEM}
+
     Sleep                           2
+
     Click Element                   ${TAMANHO}
+
     Sleep                           2
+
     Click Element                   ${COR_4}
+
     Sleep                           2
+
     Click Element                   ${COMPRAR}
+
     Sleep                           2
+
     Click Element                   ${VER_SACOLA}
+
     Sleep                           2
+
     Page Should Contain             ${FRASE}
+
     Sleep                           2
+
     Click Element                   ${FECHAR_COMPRA}
+
     Sleep                           2
+
     Close Browser
 
 
 Compra da camiseta "Alceu Dispor"
 
+
     Open Browser                    ${SITE}             ${NAVEGADOR}
+
     Sleep                           2
+
     Click Button                    ${CONFIRMAR}
+
     Sleep                           2
+
     Wait Until Element is Visible   ${PESQUISA}
+
     Sleep                           2
-    Input Text                      ${PESQUISA}         ${NOME_PESQUISA_5} 
+
+    Input Text                      ${PESQUISA}         ${NOME_PESQUISA_5}
+
     Sleep                           2
+
     Click Element                   ${ABRIR_TODOS}  
+
     Sleep                           2
+
     Wait Until Element is Visible   ${RESUL_PESQ}
+    
     Sleep                           2
+
     Click Element                   ${PESQUISA_1}
+
     Sleep                           2
+
     Click Element                   ${MODELAGEM}
+
     Sleep                           2
+
     Page Should Contain             ${CONTEM}
+
     Sleep                           2
+
     Click Element                   ${TAMANHO}
+
     Sleep                           2
+
     Click Element                   ${COR_5}
+    
     Sleep                           2
+
     Click Element                   ${COMPRAR}
+
     Sleep                           2
+
     Click Element                   ${VER_SACOLA}
+
     Sleep                           2
+    
     Page Should Contain             ${FRASE}
+
     Sleep                           2
+
     Click Element                   ${FECHAR_COMPRA}
+
     Sleep                           2
+
     Close Browser
